@@ -9,6 +9,7 @@ with sources pinned to verifiable vintages rather than model memory.
 |---|---|
 | `docs/claude-code-climate-work-operating-guide.docx` | Operating guide: workspace setup, source register, run loop, verification gates |
 | `docs/ai-engine-selection-climate-risk.docx` | Selection brief: which AI engine, harness and data vendors fit climate risk work |
+| `docs/ai-search-tools-climate-risk.docx` | Landscape scan: AI search and research tools for climate risk |
 | `scripts/build_guide.js` | Reproducible build for the operating guide |
 | `scripts/build_engine_brief.js` | Reproducible build for the selection brief |
 
@@ -18,6 +19,7 @@ with sources pinned to verifiable vintages rather than model memory.
 npm install docx
 node scripts/build_guide.js
 node scripts/build_engine_brief.js
+node scripts/build_tools_scan.js
 ```
 
 Output lands in `docs/`.
