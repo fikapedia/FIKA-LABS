@@ -8,13 +8,16 @@ with sources pinned to verifiable vintages rather than model memory.
 | Path | What it is |
 |---|---|
 | `docs/claude-code-climate-work-operating-guide.docx` | Operating guide: workspace setup, source register, run loop, verification gates |
-| `scripts/build_guide.js` | Reproducible build for the guide |
+| `docs/ai-engine-selection-climate-risk.docx` | Selection brief: which AI engine, harness and data vendors fit climate risk work |
+| `scripts/build_guide.js` | Reproducible build for the operating guide |
+| `scripts/build_engine_brief.js` | Reproducible build for the selection brief |
 
-## Rebuilding the guide
+## Rebuilding the documents
 
 ```bash
 npm install docx
 node scripts/build_guide.js
+node scripts/build_engine_brief.js
 ```
 
 Output lands in `docs/`.
